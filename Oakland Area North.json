@@ -1,0 +1,157 @@
+{
+  "Name": "Oakland Area North",
+  "Composites": [
+    {
+      "Name": "Santa Rosa",
+      "Identifier": "KSTS",
+      "Contractions": [],
+      "AtisFrequency": 20550,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 53
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "14",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "32",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Napa",
+      "Identifier": "KAPC",
+      "Contractions": [],
+      "AtisFrequency": 24050,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 54
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "19",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "01",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Chico",
+      "Identifier": "KCIC",
+      "Contractions": [],
+      "AtisFrequency": 19675,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 47
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "13",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "31",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Redding",
+      "Identifier": "KRDD",
+      "Contractions": [],
+      "AtisFrequency": 24100,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 53
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "16",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "34",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

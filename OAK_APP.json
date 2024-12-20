@@ -1,0 +1,222 @@
+{
+  "Name": "OAK_APP",
+  "Composites": [
+    {
+      "Name": "[IDS] Oakland",
+      "Identifier": "KOAK",
+      "Contractions": [
+        {
+          "String": "NV",
+          "Spoken": "NEVADA"
+        },
+        {
+          "String": "CA",
+          "Spoken": "CALIFORNIA"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "FLT",
+          "Spoken": "FLIGHT"
+        },
+        {
+          "String": "SVC",
+          "Spoken": "SERVICE"
+        },
+        {
+          "String": "FREQ",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "SFO",
+          "Spoken": "SAN FRANCISCO"
+        },
+        {
+          "String": "LAX",
+          "Spoken": "LOS ANGELES"
+        }
+      ],
+      "AtisFrequency": 33775,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 53
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids.oakartcc.org/remote/atis",
+      "Presets": [
+        {
+          "Name": "D-ATIS",
+          "AirportConditions": "ILS & VA RWYS 30 AND 28R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKE VMC",
+          "AirportConditions": "ILS AND VA, RWY 12. VOR AND VA, RWY 10R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKE IMC",
+          "AirportConditions": "ILS RWY 12. VOR RWY 10R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKW VMC",
+          "AirportConditions": "ILS AND VA RWYS 30, 28R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKW IMC",
+          "AirportConditions": "ILS RWYS 30 AND 28R..",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "BIRD ACTIVITY VCNTY ARPT..",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "HAZD WX INFO FOR NV, CA AVBL ON REQ",
+          "Enabled": false
+        }
+      ],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Hayward",
+      "Identifier": "KHWD",
+      "Contractions": [],
+      "AtisFrequency": 26700,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "10",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "28",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Livermore",
+      "Identifier": "KLVK",
+      "Contractions": [],
+      "AtisFrequency": 19650,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "25",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "7",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Concord Buchanan",
+      "Identifier": "KCCR",
+      "Contractions": [],
+      "AtisFrequency": 24700,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "SOUTH",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "NORTH",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

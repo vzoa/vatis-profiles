@@ -1,0 +1,405 @@
+{
+  "Name": "SFO_DEP",
+  "Composites": [
+    {
+      "Name": "[IDS] San Francisco",
+      "Identifier": "KSFO",
+      "Contractions": [
+        {
+          "String": "ASSC",
+          "Spoken": "ASSC SYSTEM"
+        },
+        {
+          "String": "RDBKS",
+          "Spoken": "READBACKS"
+        },
+        {
+          "String": "ACKMTS",
+          "Spoken": "ACKNOWLEDGMENTS OF ATC INSTRUCTIONS AND CLEARANCES"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE-NAV"
+        },
+        {
+          "String": "SIMO",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "CLSLY",
+          "Spoken": "CLOSELY"
+        },
+        {
+          "String": "SPCD",
+          "Spoken": "SPACED"
+        },
+        {
+          "String": "DPENDT",
+          "Spoken": "DEPENDENT"
+        },
+        {
+          "String": "NMBRS",
+          "Spoken": "NUMBERS"
+        },
+        {
+          "String": "ABV",
+          "Spoken": "ABOVE"
+        },
+        {
+          "String": "BLW",
+          "Spoken": "BELOW"
+        },
+        {
+          "String": "ADZYS",
+          "Spoken": "ADVISORIES"
+        },
+        {
+          "String": "NV",
+          "Spoken": "NEVADA"
+        },
+        {
+          "String": "CA",
+          "Spoken": "CALIFORNIA"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPARTING"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "LLWS",
+          "Spoken": "LOW LEVEL WIND SHEAR"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        },
+        {
+          "String": "SFO",
+          "Spoken": "SAN FRANCISCO"
+        },
+        {
+          "String": "ACFT",
+          "Spoken": "AIRCRAFT"
+        },
+        {
+          "String": "RWYS",
+          "Spoken": "RUNWAYS"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "ADVS",
+          "Spoken": "ADVISE"
+        }
+      ],
+      "AtisFrequency": 18850,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 56
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids.oakartcc.org/remote/atis",
+      "Presets": [
+        {
+          "Name": "D-ATIS",
+          "AirportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOW L28/D01 VMC",
+          "AirportConditions": "SIMO QUIET BRIDGE VISUAL RWY 28R AND ILS OR RNAV RWY 28L IN USE. LDG RWY 28L, 28R. DEPG RWY 1L, 1R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOW L28/D01 IMC",
+          "AirportConditions": "SIMO CLSLY SPCD DPENDT ILS RUNWAY 28L AND 28R APPROACHES IN USE. LDG RWY 28L, 28R. DEPG RWY 1L, 1R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOW L28/D01 SOIA",
+          "AirportConditions": "ILS PRM RWY 28L AND LDA PRM RWY 28R APP IN USE. LNDG RWY 28L, 28R. DEPG RWY 1L, 1R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOW L28/D28 VMC",
+          "AirportConditions": "SIMO QUIET BRIDGE VISUAL RWY 28R AND ILS OR RNAV RWY 28L IN USE. LDG RWY 28L, 28R. DEPG RWY 28L, 28R.",
+          "Notams": "DEPG AIRCRAFT NEED TO GET NMBRS FOR BOTH RWYS 28L AND 28R. TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOW L28/D28 IMC",
+          "AirportConditions": "SIMO CLSLY SPCD DPENDT ILS RUNWAY 28L AND 28R APPROACHES IN USE. LDG RWY 28L, 28R. DEPG RWY 28L, 28R.",
+          "Notams": "DEPG AIRCRAFT NEED TO GET NMBRS FOR BOTH RWYS 28L AND 28R. TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOE L19/D10 IMC",
+          "AirportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 10L, 10R.",
+          "Notams": "DEPG ACFT NEED TO GET NMBRS FOR BOTH RWYS 10L AT *S4 AND 10R AT *S. TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOE L19/D10 VMC",
+          "AirportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L, 19R. DEPG RWY 10L, 10R.",
+          "Notams": "DEPG ACFT NEED TO GET NMBRS FOR BOTH RWYS 10L AT *S4 AND 10R AT *S. TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOE L19/D19 IMC",
+          "AirportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SFOE L19/D19 VMC",
+          "AirportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L, 19R. DEPG RWY 19R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "MIDNIGHT",
+          "AirportConditions": "QUIET BRIDGE VA IN USE. LDG RWY 28L, 28R. DEPG RWY 1L, 1R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "MIDNIGHT ODO",
+          "AirportConditions": "QUIET BRIDGE VA IN USE. LDG RWY 28L, 28R. DEPG RWY 10L, 10R.",
+          "Notams": "TWY J CLSD..",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "BIRD ACTIVITY VCNTY ARPT..",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "HAZD WX INFO FOR NV, CA AVBL ON REQ.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "GATE HOLD PROCEDURES IN EFFECT. PUSHBACK CLEARANCE REQUIRED.",
+          "Enabled": false
+        }
+      ],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "[IDS] Oakland",
+      "Identifier": "KOAK",
+      "Contractions": [
+        {
+          "String": "NV",
+          "Spoken": "NEVADA"
+        },
+        {
+          "String": "CA",
+          "Spoken": "CALIFORNIA"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "FLT",
+          "Spoken": "FLIGHT"
+        },
+        {
+          "String": "SVC",
+          "Spoken": "SERVICE"
+        },
+        {
+          "String": "FREQ",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "SFO",
+          "Spoken": "SAN FRANCISCO"
+        },
+        {
+          "String": "LAX",
+          "Spoken": "LOS ANGELES"
+        }
+      ],
+      "AtisFrequency": 33775,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 53
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids.oakartcc.org/remote/atis",
+      "Presets": [
+        {
+          "Name": "D-ATIS",
+          "AirportConditions": "ILS & VA RWYS 30 AND 28R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKE VMC",
+          "AirportConditions": "ILS AND VA, RWY 12. VOR AND VA, RWY 10R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKE IMC",
+          "AirportConditions": "ILS RWY 12. VOR RWY 10R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKW VMC",
+          "AirportConditions": "ILS AND VA RWYS 30, 28R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "OAKW IMC",
+          "AirportConditions": "ILS RWYS 30 AND 28R..",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "BIRD ACTIVITY VCNTY ARPT..",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "HAZD WX INFO FOR NV, CA AVBL ON REQ",
+          "Enabled": false
+        }
+      ],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Concord Buchanan",
+      "Identifier": "KCCR",
+      "Contractions": [],
+      "AtisFrequency": 24700,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "SOUTH",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "NORTH",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Travis AFB",
+      "Identifier": "KSUU",
+      "Contractions": [],
+      "AtisFrequency": 35550,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 58
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "US Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "03",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "21",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}

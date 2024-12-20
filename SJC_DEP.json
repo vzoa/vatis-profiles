@@ -1,0 +1,215 @@
+{
+  "Name": "SJC_DEP",
+  "Composites": [
+    {
+      "Name": "[IDS] San Jose",
+      "Identifier": "KSJC",
+      "Contractions": [
+        {
+          "String": "NV",
+          "Spoken": "NEVADA"
+        },
+        {
+          "String": "CA",
+          "Spoken": "CALIFORNIA"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "VCNTY",
+          "Spoken": "VICINITY"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        }
+      ],
+      "AtisFrequency": 26950,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 53
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://ids.oakartcc.org/remote/atis",
+      "Presets": [
+        {
+          "Name": "D-ATIS",
+          "AirportConditions": "ILS, FAIRGROUNDS VISUAL, RWY 30L APCHS IN USE. DEPG RWYS 30L AND 30R. ",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SJCW VMC",
+          "AirportConditions": "ILS AND FAIRGROUNDS VISUAL, RWY 30L APP IN USE. DEPG RWYS 30L, 30R. ",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SJCW IMC",
+          "AirportConditions": "ILS RWY 30L APP IN USE. DEPG RWYS 30L, 30R. ",
+          "Notams": "MULTIPLE CRANES IN THE VICINITY OF THE AIRPORT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SJCE VMC",
+          "AirportConditions": "ILS, VISUAL, RWY 12R APCHS IN USE. DEPG RWYS 12L AND 12R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        },
+        {
+          "Name": "SJCE IMC",
+          "AirportConditions": "ILS RWY 12R APCH IN USE. DEPG RWYS 12L AND 12R.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "BIRD ACTIVITY VCNTY ARPT..",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "HAZD WX INFO FOR NV, CA AVBL ON REQ.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "MULTIPLE CRANES IN THE VICINITY OF THE AIRPORT.",
+          "Enabled": false
+        }
+      ],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Reid Hillview",
+      "Identifier": "KRHV",
+      "Contractions": [],
+      "AtisFrequency": 25200,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 47
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "13",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "31",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Palo Alto",
+      "Identifier": "KPAO",
+      "Contractions": [],
+      "AtisFrequency": 35275,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "13",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "31",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    },
+    {
+      "Name": "Moffett Federal",
+      "Identifier": "KNUQ",
+      "Contractions": [],
+      "AtisFrequency": 24175,
+      "ObservationTime": {
+        "Enabled": true,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": -10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "14",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        },
+        {
+          "Name": "32",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": []
+    }
+  ]
+}
