@@ -2,6 +2,8 @@
   "version": 1,
   "name": "Oakland ARTCC (ZOA)",
   "id": "f5b91566-bd8e-4b75-a118-46b43ec6ddce",
+  "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
+  "updateSerial": 2025012801,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
