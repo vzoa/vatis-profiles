@@ -3,7 +3,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "f5b91566-bd8e-4b75-a118-46b43ec6ddce",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025012804,
+  "updateSerial": 2025020201,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -1919,7 +1919,7 @@
           "id": "d90e8890-2763-4efc-968e-5b28347fa503",
           "ordinal": 6,
           "name": "SFOE L19/D10 VMC",
-          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. ",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 10L AND 10R.",
           "notams": "@BIRD. ",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -1930,7 +1930,7 @@
           "id": "c4c5462d-b650-4d40-98b9-276b6c5ada3c",
           "ordinal": 7,
           "name": "SFOE L19/D10 IMC",
-          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. ",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 10L AND 10R.",
           "notams": "@BIRD. ",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
