@@ -3,7 +3,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025031004,
+  "updateSerial": 2025031005,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -21944,7 +21944,7 @@
         },
         {
           "id": "4608f73d-9c00-4ca8-9f91-45efa02c4bac",
-          "name": "ODO RWYS 8/31 IMC",
+          "name": "ODO 8/31 IMC",
           "airportConditions": "ILS APCH IN USE. LNDG RWY 31, DEPG RWY 8.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
@@ -23889,7 +23889,7 @@
         },
         {
           "id": "bc0f5cbd-29a0-4aac-aad5-b18a83c1603d",
-          "name": "ODO RWYS 12/30 IMC",
+          "name": "ODO 12/30 IMC",
           "airportConditions": "RNAV APCHS IN USE. LNDG RWY 30, DEPG RWY 12.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
@@ -33513,7 +33513,9 @@
         },
         {
           "id": "418e2363-6684-4139-86ea-540c2cb96286",
-          "name": "ODO",
+          "name": "ODO 10/28",
+          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -35446,7 +35448,9 @@
         },
         {
           "id": "f45b6169-c435-485f-8e7b-c89670fc15c0",
-          "name": "ODO",
+          "name": "ODO 11/29",
+          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -39304,7 +39308,9 @@
         },
         {
           "id": "8288053b-6f8b-4467-8e3a-bb4d893969ac",
-          "name": "ODO",
+          "name": "ODO 2/20",
+          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
