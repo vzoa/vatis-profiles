@@ -12159,7 +12159,7 @@
        "presets": [
         {
           "id": "a43e1844-f113-4e4b-95d7-97c574e1a058",
-          "name": "10",
+          "name": "RWY 10",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -12167,7 +12167,7 @@
         },
         {
           "id": "c78b868a-2f1d-4766-88bd-433df4b6a971",
-          "name": "28",
+          "name": "RWY 28",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -14074,7 +14074,7 @@
       "presets": [
         {
           "id": "bbf21427-99b0-4dbe-a3ad-061f29127884",
-          "name": "11",
+          "name": "RWY 11",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -14082,7 +14082,7 @@
         },
         {
           "id": "db7acdb2-c309-4ca0-9984-9235ecb17406",
-          "name": "29",
+          "name": "RWY 29",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -15989,7 +15989,7 @@
       "presets": [
         {
           "id": "c3ab9260-0ca5-432d-aae2-b39c09bf60d4",
-          "name": "14",
+          "name": "RWY 14",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -15997,7 +15997,7 @@
         },
         {
           "id": "151cf444-c550-479d-aa98-f90e4750c93c",
-          "name": "32",
+          "name": "RWY 32",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -17904,7 +17904,7 @@
       "presets": [
         {
           "id": "7da586b9-c9d6-4fa1-aa52-a1b1df74134d",
-          "name": "13",
+          "name": "RWY 13",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -17912,7 +17912,7 @@
         },
         {
           "id": "3a3cbd3b-f851-49ec-bdae-59cc96d3909f",
-          "name": "31",
+          "name": "RWY 31",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -19819,7 +19819,7 @@
       "presets": [
         {
           "id": "ccc82ee0-daa0-4e42-b4e9-c28da32ede7e",
-          "name": "13",
+          "name": "RWY 13",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -19827,7 +19827,7 @@
         },
         {
           "id": "477a12e0-27ca-4a6d-bb5d-006e34fbe1f0",
-          "name": "31",
+          "name": "RWY 31",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -21734,7 +21734,7 @@
       "presets": [
         {
           "id": "286da9fa-878c-4f08-adf7-dcd4333956a5",
-          "name": "26",
+          "name": "RWY 26",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -21742,7 +21742,7 @@
         },
         {
           "id": "55f7cb72-b718-49aa-a90e-349873194510",
-          "name": "8",
+          "name": "RWY 8",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -21758,7 +21758,7 @@
         },
         {
           "id": "2dd05144-7d91-4a09-bce7-1c59452f6727",
-          "name": "13",
+          "name": "RWY 13",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -21766,7 +21766,7 @@
         },
         {
           "id": "e64d3413-8963-424e-8bbe-b6c1bd047f2e",
-          "name": "31",
+          "name": "RWY 31",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -23673,7 +23673,7 @@
       "presets": [
         {
           "id": "b8b4557e-284f-4ffe-86a7-4a4a934383f8",
-          "name": "12",
+          "name": "RWY 12",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -23681,7 +23681,7 @@
         },
         {
           "id": "31a3138d-a570-4f9e-8db8-f263f7421fd4",
-          "name": "30",
+          "name": "RWY 30",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -27511,7 +27511,7 @@
       "presets": [
         {
           "id": "8ab479bf-3e28-4ece-a973-e47d68e130e0",
-          "name": "10",
+          "name": "RWY 10",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -27519,7 +27519,7 @@
         },
         {
           "id": "68d21147-363e-4cef-9aa1-179a69fd5be8",
-          "name": "28",
+          "name": "RWY 28",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -29426,7 +29426,7 @@
       "presets": [
         {
           "id": "3ba9ef3b-f478-49bd-bdad-2c12dd5b33a0",
-          "name": "25",
+          "name": "RWY 25",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -29434,7 +29434,7 @@
         },
         {
           "id": "c76337cc-b046-4b74-a5ed-29329ffc8794",
-          "name": "7",
+          "name": "RWY 7",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -33239,7 +33239,7 @@
       "presets": [
         {
           "id": "60949602-71a8-4503-beb6-f0739d204d9b",
-          "name": "10",
+          "name": "RWY 10",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -33247,7 +33247,7 @@
         },
         {
           "id": "e22547cb-9ddb-4c3a-b75f-288d0c469b2f",
-          "name": "28",
+          "name": "RWY 28",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -35162,7 +35162,7 @@
       "presets": [
         {
           "id": "cbd3554d-e439-46e5-9dd1-d1951b20e40a",
-          "name": "11",
+          "name": "RWY 11",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -35170,7 +35170,7 @@
         },
         {
           "id": "23566e04-e801-4a20-90e3-b8ad70323b76",
-          "name": "29",
+          "name": "RWY 29",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -37085,7 +37085,7 @@
       "presets": [
         {
           "id": "12ba8f7d-70c4-47f5-9c5d-a430cf0ec3b5",
-          "name": "15",
+          "name": "RWY 15",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -37093,7 +37093,7 @@
         },
         {
           "id": "8e3e12c9-07d8-4d03-985c-8f8552921a74",
-          "name": "33",
+          "name": "RWY 33",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -39000,7 +39000,7 @@
       "presets": [
         {
           "id": "62ee11b6-5db2-43b3-86f3-97536908d3ca",
-          "name": "2",
+          "name": "RWY 2",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -39008,7 +39008,7 @@
         },
         {
           "id": "b366ccb5-8616-4a28-bde9-06c64bd2b5d9",
-          "name": "20",
+          "name": "RWY 20",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -40923,7 +40923,7 @@
       "presets": [
         {
           "id": "3d56e4ff-4311-4ec5-9fcc-3cb74d832d1b",
-          "name": "4",
+          "name": "RWY 4",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -40931,7 +40931,7 @@
         },
         {
           "id": "02bc0a97-e4b0-4256-a345-25dd2a28c0de",
-          "name": "33",
+          "name": "RWY 33",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -42838,7 +42838,7 @@
       "presets": [
         {
           "id": "1f3a2ad2-4a2b-4090-a1de-c9421f5be675",
-          "name": "14",
+          "name": "RWY 14",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -42846,7 +42846,7 @@
         },
         {
           "id": "9c078be0-1a6d-4f3a-a6e1-b377f057a220",
-          "name": "32",
+          "name": "RWY 32",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -44753,7 +44753,7 @@
       "presets": [
         {
           "id": "790ed21c-d8d1-4138-ad14-6cae5d25c530",
-          "name": "03",
+          "name": "RWY 03",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -44761,7 +44761,7 @@
         },
         {
           "id": "61246a98-91c3-4802-a91f-02037c0cb01a",
-          "name": "21",
+          "name": "RWY 21",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -46668,7 +46668,7 @@
       "presets": [
         {
           "id": "750afe69-4adf-4033-9d44-6703ef9de83f",
-          "name": "19",
+          "name": "RWY 19",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -46676,7 +46676,7 @@
         },
         {
           "id": "7cda438d-aa9d-4962-b9da-efad0cd6060e",
-          "name": "01",
+          "name": "RWY 01",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -48583,7 +48583,7 @@
       "presets": [
         {
           "id": "612dbaab-74f6-4a39-8b59-f5b6038ac506",
-          "name": "14",
+          "name": "RWY 14",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -48591,7 +48591,7 @@
         },
         {
           "id": "4cafb286-83d6-4462-a164-7fddb0b11eef",
-          "name": "32",
+          "name": "RWY 32",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -50498,7 +50498,7 @@
       "presets": [
         {
           "id": "d42fb936-ec98-4de3-9a49-5430ff6b1103",
-          "name": "13",
+          "name": "RWY 13",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -50506,7 +50506,7 @@
         },
         {
           "id": "38b64b04-3afa-4b24-b23a-a8d793db51ec",
-          "name": "31",
+          "name": "RWY 31",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -52413,7 +52413,7 @@
       "presets": [
         {
           "id": "91327667-7363-4d82-ad7e-9a9ccd93da2e",
-          "name": "16",
+          "name": "RWY 16",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
@@ -52421,7 +52421,7 @@
         },
         {
           "id": "cc10c0ce-9fbe-47f3-940e-b0355d77ac4d",
-          "name": "34",
+          "name": "RWY 34",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
             "enabled": false
