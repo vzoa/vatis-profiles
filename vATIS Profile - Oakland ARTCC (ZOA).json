@@ -3,7 +3,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025030901,
+  "updateSerial": 2025031001,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -12156,7 +12156,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+       "presets": [
+        {
+          "id": "a43e1844-f113-4e4b-95d7-97c574e1a058",
+          "name": "10",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "c78b868a-2f1d-4766-88bd-433df4b6a971",
+          "name": "28",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -14054,7 +14071,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "bbf21427-99b0-4dbe-a3ad-061f29127884",
+          "name": "11",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "db7acdb2-c309-4ca0-9984-9235ecb17406",
+          "name": "29",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -15952,7 +15986,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "c3ab9260-0ca5-432d-aae2-b39c09bf60d4",
+          "name": "14",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "151cf444-c550-479d-aa98-f90e4750c93c",
+          "name": "32",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -17850,7 +17901,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "7da586b9-c9d6-4fa1-aa52-a1b1df74134d",
+          "name": "13",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "3a3cbd3b-f851-49ec-bdae-59cc96d3909f",
+          "name": "31",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -19748,7 +19816,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "ccc82ee0-daa0-4e42-b4e9-c28da32ede7e",
+          "name": "13",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "477a12e0-27ca-4a6d-bb5d-006e34fbe1f0",
+          "name": "31",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -21646,7 +21731,48 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "286da9fa-878c-4f08-adf7-dcd4333956a5",
+          "name": "26",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "55f7cb72-b718-49aa-a90e-349873194510",
+          "name": "8",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "4608f73d-9c00-4ca8-9f91-45efa02c4bac",
+          "name": "ODO",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "2dd05144-7d91-4a09-bce7-1c59452f6727",
+          "name": "13",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e64d3413-8963-424e-8bbe-b6c1bd047f2e",
+          "name": "31",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -23544,7 +23670,32 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "b8b4557e-284f-4ffe-86a7-4a4a934383f8",
+          "name": "12",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "31a3138d-a570-4f9e-8db8-f263f7421fd4",
+          "name": "30",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "bc0f5cbd-29a0-4aac-aad5-b18a83c1603d",
+          "name": "ODO",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -25442,7 +25593,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "3a86e4e5-19f1-4001-aa7b-e6f897925f1e",
+          "name": "SOUTH",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "91229677-d21d-40d6-bb5e-080828588b14",
+          "name": "NORTH",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -27340,7 +27508,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "8ab479bf-3e28-4ece-a973-e47d68e130e0",
+          "name": "10",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "68d21147-363e-4cef-9aa1-179a69fd5be8",
+          "name": "28",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -29238,7 +29423,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "3ba9ef3b-f478-49bd-bdad-2c12dd5b33a0",
+          "name": "25",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "c76337cc-b046-4b74-a5ed-29329ffc8794",
+          "name": "7",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -33034,7 +33236,32 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "60949602-71a8-4503-beb6-f0739d204d9b",
+          "name": "10",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e22547cb-9ddb-4c3a-b75f-288d0c469b2f",
+          "name": "28",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "418e2363-6684-4139-86ea-540c2cb96286",
+          "name": "ODO",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -34932,7 +35159,32 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "cbd3554d-e439-46e5-9dd1-d1951b20e40a",
+          "name": "11",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "23566e04-e801-4a20-90e3-b8ad70323b76",
+          "name": "29",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "f45b6169-c435-485f-8e7b-c89670fc15c0",
+          "name": "ODO",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -38745,7 +38997,32 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "62ee11b6-5db2-43b3-86f3-97536908d3ca",
+          "name": "2",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "b366ccb5-8616-4a28-bde9-06c64bd2b5d9",
+          "name": "20",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "8288053b-6f8b-4467-8e3a-bb4d893969ac",
+          "name": "ODO",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -40643,7 +40920,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "3d56e4ff-4311-4ec5-9fcc-3cb74d832d1b",
+          "name": "4",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "02bc0a97-e4b0-4256-a345-25dd2a28c0de",
+          "name": "33",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -46371,7 +46665,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "750afe69-4adf-4033-9d44-6703ef9de83f",
+          "name": "19",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7cda438d-aa9d-4962-b9da-efad0cd6060e",
+          "name": "01",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -48269,7 +48580,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac506",
+          "name": "14",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "4cafb286-83d6-4462-a164-7fddb0b11eef",
+          "name": "32",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -50167,7 +50495,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "d42fb936-ec98-4de3-9a49-5430ff6b1103",
+          "name": "13",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "38b64b04-3afa-4b24-b23a-a8d793db51ec",
+          "name": "31",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
@@ -52065,7 +52410,24 @@
         "voice": "Default",
         "speechRate": 180
       },
-      "presets": [],
+      "presets": [
+        {
+          "id": "91327667-7363-4d82-ad7e-9a9ccd93da2e",
+          "name": "16",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "cc10c0ce-9fbe-47f3-940e-b0355d77ac4d",
+          "name": "34",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
       "contractions": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
