@@ -27739,8 +27739,8 @@
       "presets": [
         {
           "id": "8ab479bf-3e28-4ece-a973-e47d68e130e0",
-          "name": "10 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 10.",
+          "name": "10L/10R VMC",
+          "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 10L AND 10R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -27749,8 +27749,18 @@
         },
         {
           "id": "68d21147-363e-4cef-9aa1-179a69fd5be8",
-          "name": "28 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "name": "28L/28R VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 28L AND 28R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "68d21147-363e-4cef-9aa1-179a69fd5be9",
+          "name": "28L/28R IMC",
+          "airportConditions": "RNAV AND LOC APCHS IN USE. LNDG RWY 28L, DEPG RWYS 28L AND 28R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -29664,8 +29674,18 @@
       "presets": [
         {
           "id": "3ba9ef3b-f478-49bd-bdad-2c12dd5b33a0",
-          "name": "25 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 25.",
+          "name": "25L/25R VMC",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 25L AND 25R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "3ba9ef3b-f478-49bd-bdad-2c12dd5b33a1",
+          "name": "25L/25R IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG RWY 25R, DEPG RWYS 25L AND 25R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -29674,8 +29694,8 @@
         },
         {
           "id": "c76337cc-b046-4b74-a5ed-29329ffc8794",
-          "name": "7 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 7.",
+          "name": "7L/7R VMC",
+          "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 7L AND 7R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -31590,7 +31610,17 @@
         {
           "id": "8ab479ba-3e28-4ece-a973-e47d68e130e0",
           "name": "13 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 13.",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 13.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "8ab479ba-3e28-4ece-a973-e47d68e130e1",
+          "name": "13 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 13.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -31600,7 +31630,17 @@
         {
           "id": "68d2114a-363e-4cef-9aa1-179a69fd5be8",
           "name": "31 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 31.",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 31.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "68d2114a-363e-4cef-9aa1-179a69fd5be9",
+          "name": "31 IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 31.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -33514,8 +33554,8 @@
       "presets": [
         {
           "id": "60949602-71a8-4503-beb6-f0739d204d9b",
-          "name": "10 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 10.",
+          "name": "10L/10R VMC",
+          "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 10L AND 10R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -33524,8 +33564,18 @@
         },
         {
           "id": "e22547cb-9ddb-4c3a-b75f-288d0c469b2f",
-          "name": "28 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "name": "28L/28R VMC",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 28L AND 28R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e22547cb-9ddb-4c3a-b75f-288d0c469b20",
+          "name": "28L/28R IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG RWY 28R, DEPG RWYS 28L AND 28R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -33534,8 +33584,8 @@
         },
         {
           "id": "418e2363-6684-4139-86ea-540c2cb96286",
-          "name": "ODO 10/28",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "name": "ODO 10L/28R",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG RWY 28R, DEPG RWY 10L.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -35449,8 +35499,18 @@
       "presets": [
         {
           "id": "cbd3554d-e439-46e5-9dd1-d1951b20e40a",
-          "name": "11 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 11.",
+          "name": "11L/11R VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 11L AND 11R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "cbd3554d-e439-46e5-9dd1-d1951b20e401",
+          "name": "11L IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 11L.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -35459,8 +35519,18 @@
         },
         {
           "id": "23566e04-e801-4a20-90e3-b8ad70323b76",
-          "name": "29 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 29.",
+          "name": "29L/29R VMC",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 29L AND 29R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "23566e04-e801-4a20-90e3-b8ad70323b77",
+          "name": "29R IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 29R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -35469,8 +35539,8 @@
         },
         {
           "id": "f45b6169-c435-485f-8e7b-c89670fc15c0",
-          "name": "ODO 11/29",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "name": "ODO 11L/29R",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG RWY 29R, DEPG RWY 11L.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -37385,7 +37455,17 @@
         {
           "id": "12ba8f7d-70c4-47f5-9c5d-a430cf0ec3b5",
           "name": "15 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 15.",
+          "airportConditions": "ILS, RNAV, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 15.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "12ba8f7d-70c4-47f5-9c5d-a430cf0ec3b6",
+          "name": "15 IMC",
+          "airportConditions": "ILS, RNAV, AND TACAN APCHS IN USE. LNDG AND DEPG RWY 15.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -37395,7 +37475,17 @@
         {
           "id": "8e3e12c9-07d8-4d03-985c-8f8552921a74",
           "name": "33 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
+          "airportConditions": "ILS, RNAV, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "8e3e12c9-07d8-4d03-985c-8f8552921a75",
+          "name": "33 IMC",
+          "airportConditions": "ILS, RNAV, AND TACAN APCHS IN USE. LNDG AND DEPG RWY 33.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -39310,7 +39400,17 @@
         {
           "id": "62ee11b6-5db2-43b3-86f3-97536908d3ca",
           "name": "2 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 2.",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "62ee11b6-5db2-43b3-86f3-97536908d3c0",
+          "name": "2 IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 2.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -39320,7 +39420,7 @@
         {
           "id": "b366ccb5-8616-4a28-bde9-06c64bd2b5d9",
           "name": "20 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 20.",
+          "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 20.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -39330,7 +39430,7 @@
         {
           "id": "8288053b-6f8b-4467-8e3a-bb4d893969ac",
           "name": "ODO 2/20",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 28.",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG RWY 2, DEPG RWY 20.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -41244,8 +41344,18 @@
       "presets": [
         {
           "id": "3d56e4ff-4311-4ec5-9fcc-3cb74d832d1b",
-          "name": "4 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 4.",
+          "name": "4L/4R VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 4L AND 4R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "3d56e4ff-4311-4ec5-9fcc-3cb74d832d10",
+          "name": "4L/4R IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG RWY 4R, DEPG RWYS 4L AND 4R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -41254,8 +41364,18 @@
         },
         {
           "id": "02bc0a97-e4b0-4256-a345-25dd2a28c0de",
-          "name": "33 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 33.",
+          "name": "22L/22R VMC",
+          "airportConditions": "ILS, RNAV, AND VIS APCHS IN USE. LNDG AND DEPG RWYS 22L AND 22R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "02bc0a97-e4b0-4256-a345-25dd2a28c0d0",
+          "name": "22L/22R IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWYS 22L AND 22R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -43169,8 +43289,18 @@
       "presets": [
         {
           "id": "1f3a2ad2-4a2b-4090-a1de-c9421f5be675",
-          "name": "14 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 14.",
+          "name": "14L/14R VMC",
+          "airportConditions": "RNAV, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWYS 14L AND ^14R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "1f3a2ad2-4a2b-4090-a1de-c9421f5be676",
+          "name": "14L/14R IMC",
+          "airportConditions": "RNAV AND TACAN APCHS IN USE. LNDG AND DEPG RWYS 14L AND ^14R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -43179,8 +43309,18 @@
         },
         {
           "id": "9c078be0-1a6d-4f3a-a6e1-b377f057a220",
-          "name": "32 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 32.",
+          "name": "32L/32R VMC",
+          "airportConditions": "RNAV, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWYS 32L AND ^32R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "9c078be0-1a6d-4f3a-a6e1-b377f057a221",
+          "name": "32L/32R IMC",
+          "airportConditions": "RNAV AND TACAN APCHS IN USE. LNDG AND DEPG RWYS 32L AND 32R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -45094,8 +45234,18 @@
       "presets": [
         {
           "id": "790ed21c-d8d1-4138-ad14-6cae5d25c530",
-          "name": "03 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 03.",
+          "name": "3R/032 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 3R AND LZ 032.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "790ed21c-d8d1-4138-ad14-6cae5d25c531",
+          "name": "3R IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 3R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -45104,8 +45254,18 @@
         },
         {
           "id": "61246a98-91c3-4802-a91f-02037c0cb01a",
-          "name": "21 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 21.",
+          "name": "21L/212 VMC",
+          "airportConditions": "ILS, TACAN, AND VIS APCHS IN USE. LNDG AND DEPG RWY 21L AND LZ 212.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "61246a98-91c3-4802-a91f-02037c0cb011",
+          "name": "21L IMC",
+          "airportConditions": "ILS AND TACAN APCHS IN USE. LNDG AND DEPG RWY 21L.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -45118,6 +45278,11 @@
           "variableName": "DEPG",
           "text": "DEPG",
           "voice": "DEPARTING"
+        },
+        {
+          "variableName": "LZ",
+          "text": "LZ",
+          "voice": "LANDING ZONE"
         }
       ],
       "airportConditionDefinitions": [],
@@ -47019,8 +47184,18 @@
       "presets": [
         {
           "id": "750afe69-4adf-4033-9d44-6703ef9de83f",
-          "name": "19 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 19.",
+          "name": "19L/19R VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 19L AND 19R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "750afe69-4adf-4033-9d44-6703ef9de831",
+          "name": "19R IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 19R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -47029,8 +47204,48 @@
         },
         {
           "id": "7cda438d-aa9d-4962-b9da-efad0cd6060e",
-          "name": "01 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 01.",
+          "name": "1L/1R VMC",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 1L AND 1R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7cda438d-aa9d-4962-b9da-efad0cd60601",
+          "name": "1L IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 1L.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7cda438d-aa9d-4962-b9da-efad0cd60611",
+          "name": "6 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 6.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7cda438d-aa9d-4962-b9da-efad0cd60612",
+          "name": "6 IMC",
+          "airportConditions": "RNAV AND VOR APCHS IN USE. LNDG AND DEPG RWY 6.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7cda438d-aa9d-4962-b9da-efad0cd69613",
+          "name": "24 VMC",
+          "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 24.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -48943,9 +49158,49 @@
       },
       "presets": [
         {
+          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac406",
+          "name": "2 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac407",
+          "name": "2 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
           "id": "612dbaab-74f6-4a39-8b59-f5b6038ac506",
           "name": "14 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 14.",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 14.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac507",
+          "name": "14 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 14.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "4cafb286-83d6-4462-a164-7f0db0b11ee0",
+          "name": "20 VMC",
+          "airportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 20.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -48955,7 +49210,17 @@
         {
           "id": "4cafb286-83d6-4462-a164-7fddb0b11eef",
           "name": "32 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 32.",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 32.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "4cafb286-83d6-4462-a164-7fddb0b11ee0",
+          "name": "32 IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 32.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -50869,8 +51134,18 @@
       "presets": [
         {
           "id": "d42fb936-ec98-4de3-9a49-5430ff6b1103",
-          "name": "13 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 13.",
+          "name": "13L/13R VMC",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWYS 13L AND 13R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "d42fb936-ec98-4de3-9a49-5430ff6b1104",
+          "name": "13L IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 13L.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -50879,8 +51154,18 @@
         },
         {
           "id": "38b64b04-3afa-4b24-b23a-a8d793db51ec",
-          "name": "31 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 31.",
+          "name": "31L/31R VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWYS 31L AND 31R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "38b64b04-3afa-4b24-b23a-a8d793db51ec",
+          "name": "31R IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 31R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -52795,7 +53080,17 @@
         {
           "id": "91327667-7363-4d82-ad7e-9a9ccd93da2e",
           "name": "16 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 16.",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG AND DEPG RWY 16.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "91327667-7363-4d82-ad7e-9a9ccd93da21",
+          "name": "16 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 16.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
@@ -52805,7 +53100,17 @@
         {
           "id": "cc10c0ce-9fbe-47f3-940e-b0355d77ac4d",
           "name": "34 VMC",
-          "airportConditions": "BLANK AND VIS APCHS IN USE. LNDG AND DEPG RWY 34.",
+          "airportConditions": "ILS AND VIS APCHS IN USE. LNDG AND DEPG RWY 34.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "cc10c0ce-9fbe-47f3-940e-b0355d77ac44",
+          "name": "34 IMC",
+          "airportConditions": "ILS AND RNAV APCHS IN USE. LNDG AND DEPG RWY 34.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
           "externalGenerator": {
