@@ -1,9 +1,8 @@
 {
-  "version": 3,
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025040801,
+  "updateSerial": 2025041701,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -12191,7 +12190,7 @@
         "voice": "Default",
         "speechRate": 180
       },
-       "presets": [
+      "presets": [
         {
           "id": "a43e1844-f113-4e4b-95d7-97c574e1a058",
           "name": "10L/10R VMC",
@@ -41372,8 +41371,8 @@
       "frequency": 118325000,
       "useDecimalTerminology": false,
       "atisVoice": {
-        "useTextToSpeech": false,
-        "voice": "Default",
+        "useTextToSpeech": true,
+        "voice": "US Female",
         "speechRate": 180
       },
       "presets": [
@@ -53164,5 +53163,6 @@
       "notamDefinitions": [],
       "transitionLevels": []
     }
-  ]
+  ],
+  "version": 4
 }
