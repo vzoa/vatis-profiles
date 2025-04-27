@@ -2,7 +2,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025041701,
+  "updateSerial": 2025042701,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -8156,7 +8156,7 @@
           "name": "SMFS VMC",
           "airportConditions": "SIMUL VISUAL APCHS IN USE, LNDG RWYS 17R AND LEFT. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 17R AND LEFT. ",
           "notams": "BIRD ACTIVITY VICINITY ARPT. ",
-          "template": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -53163,6 +53163,5 @@
       "notamDefinitions": [],
       "transitionLevels": []
     }
-  ],
-  "version": 4
+  ]
 }
