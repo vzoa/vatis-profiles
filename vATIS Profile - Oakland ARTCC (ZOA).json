@@ -2,7 +2,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025052601,
+  "updateSerial": 2025052801,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -1948,7 +1948,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -1984,8 +1984,8 @@
           "id": "6acc7f2f-d4ce-4a45-9e4a-6231bc62a15d",
           "ordinal": 2,
           "name": "SFOW L28/D01 VMC",
-          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
-          "notams": "@BIRD. ",
+          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -1995,8 +1995,8 @@
           "id": "331b3af6-8013-4e3c-803f-468ad47c8aa9",
           "ordinal": 3,
           "name": "SFOW L28/D01 IMC",
-          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
-          "notams": "@BIRD. ",
+          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2006,8 +2006,8 @@
           "id": "852cd2d7-2e20-4014-baa9-eb141f2c0696",
           "ordinal": 4,
           "name": "SFOW L28/D28 VMC",
-          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
-          "notams": "@BIRD. ",
+          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2017,8 +2017,8 @@
           "id": "cbadd0c9-a2ca-4be2-b539-b3543c421418",
           "ordinal": 5,
           "name": "SFOW L28/D28 IMC",
-          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
-          "notams": "@BIRD. ",
+          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2028,8 +2028,8 @@
           "id": "d90e8890-2763-4efc-968e-5b28347fa503",
           "ordinal": 6,
           "name": "SFOE L19/D10 VMC",
-          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
-          "notams": "@BIRD. ",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2039,8 +2039,8 @@
           "id": "c4c5462d-b650-4d40-98b9-276b6c5ada3c",
           "ordinal": 7,
           "name": "SFOE L19/D10 IMC",
-          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
-          "notams": "@BIRD. ",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2050,8 +2050,8 @@
           "id": "1727b772-9631-401e-8545-c1b159015c63",
           "ordinal": 8,
           "name": "SFOE L19/D19 VMC",
-          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L. DEPG RWY 19R. ",
-          "notams": "@BIRD. ",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L. DEPG RWY 19R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2061,8 +2061,8 @@
           "id": "6f49a5b7-65be-4be3-acf1-596783550645",
           "ordinal": 8,
           "name": "SFOE L19/D19 IMC",
-          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R. ",
-          "notams": "@BIRD. ",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R. @BIRD.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4113,7 +4113,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -6178,8 +6178,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTICE TO AIR MISSIONS. {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTICE TO AIRMEN. {notams}",
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -6214,7 +6214,7 @@
           "id": "e3fc5d59-1d53-4f3b-ae71-ff61b0c0cebf",
           "name": "SJCW VMC",
           "airportConditions": "ILS, RNAV Y, RNAV Z, FAIRGROUNDS VISUAL, RWY 30L APCHS IN USE. DEPG RWYS 30L AND 30R.",
-          "notams": "BIRD ACTIVITY VCNTY ARPT. ",
+          "notams": "BIRD ACTIVITY VCNTY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -6223,8 +6223,8 @@
         {
           "id": "c3a0068a-68f6-46e5-bb72-90d686d7eba4",
           "name": "SJCW IMC",
-          "airportConditions": "ILS, RNAV Y, RNAV Z, RWY 30L APCHS IN USE. DEPG RWYS 30L AND 30R. ",
-          "notams": "BIRD ACTIVITY VCNTY ARPT. ",
+          "airportConditions": "ILS, RNAV Y, RNAV Z, RWY 30L APCHS IN USE. DEPG RWYS 30L AND 30R.",
+          "notams": "BIRD ACTIVITY VCNTY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -6233,8 +6233,8 @@
         {
           "id": "6e2ff426-460f-4edb-9ae4-54adc4f7f5b0",
           "name": "SJCE VMC",
-          "airportConditions": "ILS, RNAV Y, RNAV Z, VISUAL, RWY 12R APCHS IN USE. DEPG RWYS 12L AND 12R. ",
-          "notams": "BIRD ACTIVITY VCNTY ARPT. ",
+          "airportConditions": "ILS, RNAV Y, RNAV Z, VISUAL, RWY 12R APCHS IN USE. DEPG RWYS 12L AND 12R.",
+          "notams": "BIRD ACTIVITY VCNTY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -6243,8 +6243,8 @@
         {
           "id": "5899eeb6-5650-414d-abea-19c8c4e120a8",
           "name": "SJCE IMC",
-          "airportConditions": "ILS, RNAV Y, RNAV Z, RWY 12R APCHS IN USE. DEPG RWYS 12L AND 12R. ",
-          "notams": "TWY J CLSD BTN, W AND V ;, TWY W1 CLSD BTN, G AND J ;. RWY 12R, RWY 12L, CONDITION CODES 5/5/5.",
+          "airportConditions": "ILS, RNAV Y, RNAV Z, RWY 12R APCHS IN USE. DEPG RWYS 12L AND 12R.",
+          "notams": "BIRD ACTIVITY VCNTY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8230,7 +8230,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -8266,8 +8266,8 @@
           "id": "8438dd72-a364-4c99-abf9-7cc66805b485",
           "ordinal": 2,
           "name": "SMFS VMC",
-          "airportConditions": "SIMUL VISUAL APCHS IN USE, LNDG RWYS 17R AND LEFT. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 17R AND LEFT. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "airportConditions": "SIMUL VISUAL APCHS IN USE, LNDG RWYS 17R AND LEFT. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 17R AND LEFT.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8277,8 +8277,8 @@
           "id": "675944fd-1e6d-4c58-97b1-2ee64f952aca",
           "ordinal": 2,
           "name": "SMFS IMC",
-          "airportConditions": "ILS RWYS 17R AND LEFT APPROACHES IN USE. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 17R AND LEFT. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "airportConditions": "ILS RWYS 17R AND LEFT APPROACHES IN USE. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 17R AND LEFT.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8288,8 +8288,8 @@
           "id": "0677cbba-7e38-4fb2-9116-f383e8bd6419",
           "ordinal": 4,
           "name": "SMFN VMC",
-          "airportConditions": "SIMUL VISUAL APCHS IN USE, LNDG RWYS 35L AND RIGHT. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 35L AND RIGHT. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "airportConditions": "SIMUL VISUAL APCHS IN USE, LNDG RWYS 35L AND RIGHT. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 35L AND RIGHT.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8299,8 +8299,8 @@
           "id": "8d1c990b-327d-41b3-8d5e-2bf276ad26ce",
           "ordinal": 5,
           "name": "SMFN IMC",
-          "airportConditions": "ILS RWYS 35L AND RIGHT APPROACHES IN USE. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 35L AND RIGHT. ",
-          "notams": "BIRD ACTIVITY VICINITY ARPT. ",
+          "airportConditions": "ILS RWYS 35L AND RIGHT APPROACHES IN USE. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 35L AND RIGHT.",
+          "notams": "BIRD ACTIVITY VICINITY ARPT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10290,8 +10290,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "NOTICE TO AIRMEN. {notams}",
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -10326,7 +10326,7 @@
           "id": "0593cfcf-80d6-45c6-9a7e-d0a08e9f1ebb",
           "name": "RNOS VMC",
           "airportConditions": "VISUAL APCH IN USE. LNDG AND DEPG RWY 17R, 17L. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10336,7 +10336,7 @@
           "id": "77cbdca2-7d81-43a0-8f05-01b5fdff256a",
           "name": "RNOS IMC",
           "airportConditions": "ILS RWY 17R IN USE. LNDG AND DEPG RWY 17R, 17L. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10346,7 +10346,7 @@
           "id": "8da4910c-713e-4519-a8c2-b31ddf9fe576",
           "name": "RNON VMC",
           "airportConditions": "VISUAL APCH IN USE. LNDG AND DEPG RWY 35L, 35R. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10355,8 +10355,8 @@
         {
           "id": "6f2b4609-8e40-4b5a-880f-ebefd5f60de3",
           "name": "RNON IMC",
-          "airportConditions": "ILS RWY 35L APCH IN USE. LNDG AND DEPG RWY 35L, 35R. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT. ",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "airportConditions": "ILS RWY 35L APCH IN USE. LNDG AND DEPG RWY 35L, 35R. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10366,7 +10366,7 @@
           "id": "c045f6b0-3e13-498e-8eb0-6947a6d777d0",
           "name": "RNOS VMC + 26",
           "airportConditions": "VISUAL APCH IN USE. LNDG AND DEPG RWY 17R, 17L, 26. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10376,7 +10376,7 @@
           "id": "f4c65611-18a3-4eca-aa84-ba698e356c13",
           "name": "RNOS IMC + 26",
           "airportConditions": "ILS RWY 17R IN USE. LNDG AND DEPG RWY 17R, 17L, 26. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10386,7 +10386,7 @@
           "id": "6feab067-c2b1-4519-aee9-fff27f806678",
           "name": "RNON VMC + 26",
           "airportConditions": "VISUAL APCH IN USE. LNDG AND DEPG RWY 35L, 35R, 26. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10395,8 +10395,8 @@
         {
           "id": "8f9fa155-d2dc-4dca-8306-b3624af78a53",
           "name": "RNON IMC + 26",
-          "airportConditions": "ILS RWY 35L APCH IN USE. LNDG AND DEPG RWY 35L, 35R, 26. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT. ",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT. ",
+          "airportConditions": "ILS RWY 35L APCH IN USE. LNDG AND DEPG RWY 35L, 35R, 26. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -12338,7 +12338,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -14311,7 +14311,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -16284,7 +16284,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -18257,7 +18257,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -20220,7 +20220,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -22193,7 +22193,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -24206,7 +24206,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -26179,7 +26179,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -28142,7 +28142,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -30105,7 +30105,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -32068,7 +32068,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -34041,7 +34041,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -36014,7 +36014,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -37997,7 +37997,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -39970,7 +39970,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -41943,7 +41943,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -43916,7 +43916,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -45889,7 +45889,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -47867,7 +47867,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -49870,7 +49870,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -51873,7 +51873,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
@@ -53846,7 +53846,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICE TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
