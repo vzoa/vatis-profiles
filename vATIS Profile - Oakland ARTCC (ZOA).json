@@ -2,7 +2,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025070702,
+  "updateSerial": 2025070703,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -49962,7 +49962,7 @@
           }
         },
         {
-          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac509",
+          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac508",
           "name": "2/32 VMC",
           "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 2 AND 32. LAND AND HOLD SHORT IN EFFECT.",
           "notams": "",
@@ -49972,7 +49972,7 @@
           }
         },
         {
-          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac508",
+          "id": "612dbaab-74f6-4a39-8b59-f5b6038ac509",
           "name": "14/20 VMC",
           "airportConditions": "VIS APCHS IN USE. LNDG AND DEPG RWYS 14 AND 20.",
           "notams": "",
