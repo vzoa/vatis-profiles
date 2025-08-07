@@ -2,7 +2,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025070703,
+  "updateSerial": 2025080704,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -1984,11 +1984,17 @@
           "id": "6acc7f2f-d4ce-4a45-9e4a-6231bc62a15d",
           "ordinal": 2,
           "name": "SFOW L28/D01 VMC",
-          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R. @BIRD.",
+          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -2006,7 +2012,7 @@
           "id": "852cd2d7-2e20-4014-baa9-eb141f2c0696",
           "ordinal": 4,
           "name": "SFOW L28/D28 VMC",
-          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R. @BIRD.",
+          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2017,7 +2023,7 @@
           "id": "cbadd0c9-a2ca-4be2-b539-b3543c421418",
           "ordinal": 5,
           "name": "SFOW L28/D28 IMC",
-          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R. @BIRD.",
+          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2028,7 +2034,7 @@
           "id": "d90e8890-2763-4efc-968e-5b28347fa503",
           "ordinal": 6,
           "name": "SFOE L19/D10 VMC",
-          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R. @BIRD.",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2039,7 +2045,7 @@
           "id": "c4c5462d-b650-4d40-98b9-276b6c5ada3c",
           "ordinal": 7,
           "name": "SFOE L19/D10 IMC",
-          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R. @BIRD.",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2050,7 +2056,7 @@
           "id": "1727b772-9631-401e-8545-c1b159015c63",
           "ordinal": 8,
           "name": "SFOE L19/D19 VMC",
-          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L. DEPG RWY 19R. @BIRD.",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L. DEPG RWY 19R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2059,9 +2065,125 @@
         },
         {
           "id": "6f49a5b7-65be-4be3-acf1-596783550645",
-          "ordinal": 8,
+          "ordinal": 9,
           "name": "SFOE L19/D19 IMC",
-          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R. @BIRD.",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "156edb5e-7aa7-4910-9b74-d178980615ae",
+          "ordinal": 9,
+          "name": "SFOW L01/D01",
+          "airportConditions": "RNAV VIS RWY 1R AND ILS RWY 28R CIRCLE \r\nTO LAND RWY 1R IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "07cac3c4-ebb1-457c-b8fb-eb920fd8a242",
+          "ordinal": 11,
+          "name": "SFOW L28/D01 VMC + GH",
+          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "63fbb955-71e9-4bb6-9622-23554e893caf",
+          "ordinal": 12,
+          "name": "SFOW L28/D01 IMC + GH",
+          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R. @BIRD.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "e5a612f7-2522-40ce-8722-53bfbdc690ba",
+          "ordinal": 13,
+          "name": "SFOW L28/D28 VMC + GH",
+          "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "d2a3bbc3-0ae3-46fa-a91f-2855d147544b",
+          "ordinal": 14,
+          "name": "SFOW L28/D28 IMC + GH",
+          "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "6071dfe4-1d7f-4fb8-b107-e2cb138f6058",
+          "ordinal": 15,
+          "name": "SFOE L19/D10 VMC + GH",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "429aabcb-88ec-489b-bcd2-760bc90987b5",
+          "ordinal": 16,
+          "name": "SFOE L19/D10 IMC + GH",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "31e6ddb8-6e92-4f56-8735-9147a3f1e936",
+          "ordinal": 17,
+          "name": "SFOE L19/D19 VMC + GH",
+          "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L. DEPG RWY 19R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "f2071701-5227-4cfe-b570-463c238908e5",
+          "ordinal": 18,
+          "name": "SFOE L19/D19 IMC + GH",
+          "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R.",
+          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "02fc65f2-9b7c-44c1-89e6-9aaf8f51cd65",
+          "ordinal": 19,
+          "name": "SFOW L01/D01 + GH",
+          "airportConditions": "RNAV VIS RWY 1R AND ILS RWY 28R CIRCLE \r\nTO LAND RWY 1R IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -2164,6 +2286,11 @@
           "variableName": "AP",
           "text": "AP",
           "voice": "AIRPORT"
+        },
+        {
+          "variableName": "VIS",
+          "text": "VIS",
+          "voice": "VISUAL"
         }
       ],
       "airportConditionDefinitions": [],
@@ -53939,5 +54066,6 @@
       "notamDefinitions": [],
       "transitionLevels": []
     }
-  ]
+  ],
+  "version": 4
 }
