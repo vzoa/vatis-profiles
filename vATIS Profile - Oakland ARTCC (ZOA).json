@@ -2,7 +2,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025090401,
+  "updateSerial": 2025090402,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -2090,7 +2090,7 @@
           "ordinal": 11,
           "name": "SFOW L28/D01 VMC + GH",
           "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false,
@@ -2107,7 +2107,7 @@
           "ordinal": 12,
           "name": "SFOW L28/D01 IMC + GH",
           "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 1L, 1R. @BIRD.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2118,7 +2118,7 @@
           "ordinal": 13,
           "name": "SFOW L28/D28 VMC + GH",
           "airportConditions": "SIMULTANEOUS CHARTED VISUAL FLIGHT PROCEDURES IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2129,7 +2129,7 @@
           "ordinal": 14,
           "name": "SFOW L28/D28 IMC + GH",
           "airportConditions": "SIMULTANEOUS CLSLY SPCD DPNDNT ILS RY 28R AND ILS RY 28L APPS IN USE. LNDG RWYS 28L, 28R. DEPG RWYS 28L, 28R. DEPG ACFT GET NMBRS AND BRIEF BOTH RWYS 28L AND 28R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2140,7 +2140,7 @@
           "ordinal": 15,
           "name": "SFOE L19/D10 VMC + GH",
           "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG RWYS 28L, 28R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2151,7 +2151,7 @@
           "ordinal": 16,
           "name": "SFOE L19/D10 IMC + GH",
           "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWYS 19L, 19R. DEPG RWYS 10L, 10R. DEPG ACFT PLEASE HAVE NMBRS FOR BOTH RY 10L AND 10R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2162,7 +2162,7 @@
           "ordinal": 17,
           "name": "SFOE L19/D19 VMC + GH",
           "airportConditions": "ILS RWY 19L, VA IN USE. LNDG RWY 19L. DEPG RWY 19R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -2173,7 +2173,7 @@
           "ordinal": 18,
           "name": "SFOE L19/D19 IMC + GH",
           "airportConditions": "ILS RWY 19L APP IN USE. LNDG RWY 19L. DEPG RWY 19R.",
-          "notams": "Gatehold procedures are in effect.  Contact gatehold on 124.25 when ready for engine start or \r\npushback.",
+          "notams": "GATEHOLD PROCEDURES ARE IN EFFECT. CONTACT GATEHOLD ON 124.25 WHEN READY FOR ENGINE START OR PUSHBACK.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
