@@ -2,11 +2,11 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025080704,
+  "updateSerial": 2025090401,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
-      "ordinal": 0,
+      "ordinal": 1,
       "identifier": "KSFO",
       "name": "San Francisco",
       "atisType": "Combined",
@@ -2298,7 +2298,7 @@
     },
     {
       "id": "ab9d5c07-893a-4612-b7c1-b3f55cc64425",
-      "ordinal": 1,
+      "ordinal": 2,
       "identifier": "KOAK",
       "name": "Oakland",
       "atisType": "Combined",
@@ -4364,7 +4364,7 @@
     },
     {
       "id": "3c6ae51f-a4cc-4157-8c97-a1067b2ea1e5",
-      "ordinal": 2,
+      "ordinal": 3,
       "identifier": "KSJC",
       "name": "San Jose",
       "atisType": "Combined",
@@ -6415,7 +6415,7 @@
     },
     {
       "id": "a92a85e4-bb75-45a2-b018-7e56ef7225a1",
-      "ordinal": 3,
+      "ordinal": 4,
       "identifier": "KSMF",
       "name": "Sacramento",
       "atisType": "Combined",
@@ -8476,7 +8476,7 @@
     },
     {
       "id": "c5180fe1-8e24-44cc-b913-6189047d6108",
-      "ordinal": 4,
+      "ordinal": 5,
       "identifier": "KRNO",
       "name": "Reno",
       "atisType": "Combined",
@@ -10452,8 +10452,8 @@
         {
           "id": "0593cfcf-80d6-45c6-9a7e-d0a08e9f1ebb",
           "name": "RNOS VMC",
-          "airportConditions": "",
-          "notams": "",
+          "airportConditions": "VISUAL APCH IN USE. LNDG AND DEPG RWY 17R, 17L. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
+          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10567,7 +10567,7 @@
     },
     {
       "id": "dd2f7a0b-d3a7-421a-b4d8-7d969f3626b3",
-      "ordinal": 5,
+      "ordinal": 6,
       "identifier": "KMRY",
       "name": "Monterey",
       "atisType": "Combined",
@@ -12540,7 +12540,7 @@
     },
     {
       "id": "a7de8585-ed60-4847-b844-ffe6871a78fb",
-      "ordinal": 6,
+      "ordinal": 7,
       "identifier": "KFAT",
       "name": "Fresno",
       "atisType": "Combined",
@@ -14513,7 +14513,7 @@
     },
     {
       "id": "dcc04be3-01a9-4ba3-90c3-0227cdb5692c",
-      "ordinal": 7,
+      "ordinal": 8,
       "identifier": "KNUQ",
       "name": "Moffett Federal",
       "atisType": "Combined",
@@ -16486,7 +16486,7 @@
     },
     {
       "id": "c74b7f0d-e8bb-4b91-aed6-b9fa7c51d97b",
-      "ordinal": 8,
+      "ordinal": 9,
       "identifier": "KPAO",
       "name": "Palo Alto",
       "atisType": "Combined",
@@ -18449,7 +18449,7 @@
     },
     {
       "id": "e6261e9f-955e-4e6f-b7bd-d54ff9af5223",
-      "ordinal": 9,
+      "ordinal": 10,
       "identifier": "KRHV",
       "name": "Reid Hillview",
       "atisType": "Combined",
@@ -20422,7 +20422,7 @@
     },
     {
       "id": "a1b07822-32ad-4a3d-bdbb-9b23473d14b1",
-      "ordinal": 10,
+      "ordinal": 11,
       "identifier": "KSNS",
       "name": "Salinas",
       "atisType": "Combined",
@@ -22435,7 +22435,7 @@
     },
     {
       "id": "2b7c99b7-50e1-48fd-b026-deba255ad685",
-      "ordinal": 11,
+      "ordinal": 12,
       "identifier": "KSQL",
       "name": "San Carlos",
       "atisType": "Combined",
@@ -24408,7 +24408,7 @@
     },
     {
       "id": "778b27a2-8b6e-4b6f-83cb-11be69e2d23c",
-      "ordinal": 12,
+      "ordinal": 13,
       "identifier": "KCCR",
       "name": "Concord Buchanan",
       "atisType": "Combined",
@@ -26371,7 +26371,7 @@
     },
     {
       "id": "a73abe34-ad36-44d7-8c0e-78bfaa142c96",
-      "ordinal": 13,
+      "ordinal": 14,
       "identifier": "KHWD",
       "name": "Hayward",
       "atisType": "Combined",
@@ -28334,7 +28334,7 @@
     },
     {
       "id": "ab0e6a27-c99c-4cd2-aab4-e4695043266c",
-      "ordinal": 14,
+      "ordinal": 15,
       "identifier": "KLVK",
       "name": "Livermore",
       "atisType": "Combined",
@@ -30297,7 +30297,7 @@
     },
     {
       "id": "769e147b-42fe-4fad-b872-a71475a8cf14",
-      "ordinal": 15,
+      "ordinal": 16,
       "identifier": "KMER",
       "name": "Castle",
       "atisType": "Combined",
@@ -32270,7 +32270,7 @@
     },
     {
       "id": "925f9543-db4a-4989-b230-55faa1ec65ae",
-      "ordinal": 16,
+      "ordinal": 17,
       "identifier": "KMOD",
       "name": "Modesto",
       "atisType": "Combined",
@@ -34243,7 +34243,7 @@
     },
     {
       "id": "9c2005ea-511c-47f8-8a59-a0c96d2f917e",
-      "ordinal": 17,
+      "ordinal": 18,
       "identifier": "KSCK",
       "name": "Stockton",
       "atisType": "Combined",
@@ -36226,7 +36226,7 @@
     },
     {
       "id": "1e632393-5c54-4298-a79f-6d348a0788e9",
-      "ordinal": 18,
+      "ordinal": 19,
       "identifier": "KBAB",
       "name": "Beale AFB",
       "atisType": "Combined",
@@ -38199,7 +38199,7 @@
     },
     {
       "id": "ca4ee275-4060-485d-afe3-6d6307ba1365",
-      "ordinal": 19,
+      "ordinal": 20,
       "identifier": "KSAC",
       "name": "Sacramento Executive",
       "atisType": "Combined",
@@ -40172,7 +40172,7 @@
     },
     {
       "id": "29485a0e-aff2-47c9-9233-05331e606b68",
-      "ordinal": 20,
+      "ordinal": 21,
       "identifier": "KMHR",
       "name": "Mather",
       "atisType": "Combined",
@@ -42145,7 +42145,7 @@
     },
     {
       "id": "29f2415e-9c5e-404a-97f1-9c7e4c08cd9f",
-      "ordinal": 21,
+      "ordinal": 22,
       "identifier": "KNLC",
       "name": "Lemoore NAS",
       "atisType": "Combined",
@@ -44118,7 +44118,7 @@
     },
     {
       "id": "e9cd0f0c-76d2-4146-899e-d9d6c50525c0",
-      "ordinal": 22,
+      "ordinal": 23,
       "identifier": "KSUU",
       "name": "Travis AFB",
       "atisType": "Combined",
@@ -46096,7 +46096,7 @@
     },
     {
       "id": "8ec92c7e-8885-44dc-92d5-a0a26f63d2a4",
-      "ordinal": 23,
+      "ordinal": 24,
       "identifier": "KAPC",
       "name": "Napa",
       "atisType": "Combined",
@@ -48099,7 +48099,7 @@
     },
     {
       "id": "87d4cd53-3c94-48f5-b057-77f700429c04",
-      "ordinal": 24,
+      "ordinal": 25,
       "identifier": "KSTS",
       "name": "Santa Rosa",
       "atisType": "Combined",
@@ -50122,7 +50122,7 @@
     },
     {
       "id": "c6f2bb04-d81c-4040-b2cc-53ae822792e4",
-      "ordinal": 25,
+      "ordinal": 26,
       "identifier": "KCIC",
       "name": "Chico",
       "atisType": "Combined",
@@ -52095,7 +52095,7 @@
     },
     {
       "id": "c492166f-d02d-4ec6-8d3e-9918dfa237cb",
-      "ordinal": 26,
+      "ordinal": 27,
       "identifier": "KRDD",
       "name": "Redding",
       "atisType": "Combined",
@@ -54068,7 +54068,7 @@
     },
     {
       "id": "aa8d450d-c690-4568-93f8-301d970d7f65",
-      "ordinal": 27,
+      "ordinal": 28,
       "identifier": "KTRK",
       "name": "Truckee Tahoe",
       "atisType": "Combined",
