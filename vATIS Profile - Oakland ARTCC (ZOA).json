@@ -2,7 +2,7 @@
   "name": "Oakland ARTCC (ZOA)",
   "id": "9cacc20a-eb8b-4719-bbc6-3016c35b1f3a",
   "updateUrl": "https://raw.githubusercontent.com/vzoa/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20Oakland%20ARTCC%20(ZOA).json",
-  "updateSerial": 2025090402,
+  "updateSerial": 2025110801,
   "stations": [
     {
       "id": "70067988-b36a-4c20-b8a1-3607d1c383b7",
@@ -55986,8 +55986,79 @@
       "presets": [
         {
           "id": "a92b6c31-efd0-480a-a3a7-daa2a454ea89",
-          "ordinal": 0,
-          "name": "20",
+          "name": "D2/L11 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG RWY 11. DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-a3a7-daa2a454ea80",
+          "name": "D2/L11 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG RWY 11. DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-a3a8-daa2a454ea89",
+          "name": "D29/L11 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG RWY 11. DEPG RWY 29.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-a3a8-daa2a454ea80",
+          "name": "D29/L11 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG RWY 11. DEPG RWY 29.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-b3a7-daa2a454ea89",
+          "name": "D2/L20 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG RWY 20. DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-b3a7-daa2a454ea80",
+          "name": "D2/L20 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG RWY 20. DEPG RWY 2.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-b3a8-daa2a454ea89",
+          "name": "D29/L20 VMC",
+          "airportConditions": "RNAV AND VIS APCHS IN USE. LNDG RWY 20. DEPG RWY 29.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a92b6c31-efd0-480a-b3a8-daa2a454ea80",
+          "name": "D29/L20 IMC",
+          "airportConditions": "RNAV APCH IN USE. LNDG RWY 20. DEPG RWY 29.",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
