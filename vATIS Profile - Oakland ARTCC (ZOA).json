@@ -12531,6 +12531,16 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "c78b868a-2f1d-4766-88bd-433df4b6a973",
+          "name": "10R/28L IMC",
+          "airportConditions": "ILS AND RNAV RWY 10R APCHS IN USE. LNDG RWY 10R. DEPG RWY 28L.",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [
