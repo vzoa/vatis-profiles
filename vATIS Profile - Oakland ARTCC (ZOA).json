@@ -1974,8 +1974,8 @@
           "id": "72d0f984-3983-4891-b787-7a4dcc2c1715",
           "ordinal": 1,
           "name": "D-ATIS",
-          "airportConditions": "SIMO QUIET BRIDGE VISUAL RWY 28R AND ILS OR RNAV RWY 28L IN USE. LDG RWY 28L, 28R. DEPG RWY 1L, 1R.",
-          "notams": "TWY J CLSD..",
+          "airportConditions": "",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -4266,7 +4266,7 @@
         {
           "id": "32f0b3cd-4e8d-432b-8c14-76c417c73dc9",
           "name": "D-ATIS",
-          "airportConditions": "ILS, AND VA, RWYS 30 AND 28R. CAUTION, BIRDS NEAR AIRPORT.",
+          "airportConditions": "",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -6333,8 +6333,8 @@
         {
           "id": "e1a27fad-a6e6-4025-8014-f04f4cc9719c",
           "name": "D-ATIS",
-          "airportConditions": "ILS, RNAV Y, RNAV Z, FAIRGROUNDS VISUAL, RWY 30L APCHS IN USE. DEPG RWYS 30L AND 30R.",
-          "notams": "BIRD ACTIVITY VCNTY ARPT.",
+          "airportConditions": "",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -8386,8 +8386,8 @@
           "id": "dfa524ca-d904-41af-80ca-8d630aa75f77",
           "ordinal": 1,
           "name": "D-ATIS",
-          "airportConditions": "SIMUL VISUAL APCHS IN USE, LNDG RWYS 17R AND LEFT. SIMUL DEPENDENT APCHS IN USE. DEPG RWYS 17R AND LEFT.",
-          "notams": "BIRD ACTIVITY VICINITY ARPT.",
+          "airportConditions": "",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
@@ -10447,8 +10447,8 @@
         {
           "id": "813f4bce-3b7b-4048-a69d-305c65db8378",
           "name": "D-ATIS",
-          "airportConditions": "VISUAL APCH IN USE. LNDG AND DEPG RWY 35L, 35R. APPCHS TO PARALLEL RWYS IN USE. ENSURE CORRECT RWY ALIGNMENT.",
-          "notams": "CAUTION, BIRDS NEAR AIRPORT.",
+          "airportConditions": "",
+          "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
