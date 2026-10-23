@@ -2597,7 +2597,68 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "ALTERNATE OVERNIGHT PARKING AT OAKLAND AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "ALTERNATE OVERNIGHT PARKING AVAILABLE AT OAKLAND METROPOLITAN AIRPORT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "DRONE \\w{1,} MILE \\w{1,} OF THE AIRPORT AT \\d{1,4} FEET",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "DROP AND GO ONLY",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "GATEHOLD PROCEDURES IN EFCT, ALL A/C CTC GH 124.25 WHEN READY FOR ENG START OR PB",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO OVERNIGHT SIGNATURE PARKING",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO OVERNIGHT SIGNATURE PARKING AVAILABE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "PAEW ADJ IN SAFETY AREA OF ALL RWYS NEAR VOR",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RY \\d{1,2}[LR] PAPI OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "TRML A B C & D1 TO D9 GND 124.25 ALL OTHERS GND 121.8",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UNATHZD LASER ILMN EVNT \\d{4}Z \\d{1,2} MILE FINAL, UNKN ALT, \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNATHZD LASER ILMN EVNT \\d{4}Z \\d{1,2} MILE FINAL, \\d{1,4} FEET, \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -4967,7 +5028,98 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "\\d{1,2} MILES \\w{1,} RWY \\d{1,2}[LR]?, \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "\\d{1,2} MILES \\w{1,}, \\w{1,} LASER",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FLOW TO ([A-Z]{3}\\, ){1,}[A-Z]{3}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FLOW TO ([A-Z]{3}\\, ){1,}[A-Z]{3} FOR \\w{3,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "FLOW TO ([A-Z]{3})",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "GROUND DELAY PROGRAM TO COLORADO SKI COUNTRY AIRPORTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "GROUND DELAY TO ALL OF COLORADO AND MEXICO EXPECT LONG DELAYS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "GROUND DELAY TO SOME COLORADO AND MEXICO AIRPORT, EXPECT DELAYS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "GROUND STOP TO \\w{3}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]?/\\d{1,2}[LR]?/\\d{1,2}[LR]?/\\d{1,2}[LR]? RWYCC \\d/\\d/\\d AT \\d{4}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? SFL, OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? PAPIS, OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "SAU OTS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "SOUTH FIELD GROUND CONTROL FREQUENCY USE 126.0",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "UNAUTH LASER ILLUMINATION EVENT. AT \\d{4}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "NO PATTERN WORK",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "PATTERN WORK UNAVAILABLE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "TFR IN EFFECT .+?\\.",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -7322,7 +7474,103 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": " ;, ",
+          "replacement": "; ",
+          "isRegex": false
+        },
+        {
+          "pattern": " ;. ",
+          "replacement": ". ",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC 121.7 FOR CLNC DLVRY",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC 124.0 FOR GND AND CLNC DLVRY",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC NCT 121.3 FOR IFR CLNC AND FOR RLS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CTC NORCAL APCH ON 121.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "FOR IFR RELEASE CONTACT NORCAL APPROACH 121.3",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]?, RWY \\d{1,2}[LR]?, CONDITION CODES, \\d,\\d,\\d, SLIPPERY WHEN WET, AT \\d{4}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]?, RWY \\d{1,2}[LR]?, CONDITION CODES, \\d,\\d,\\d, AT \\d{4}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]?, RWY \\d{1,2}[LR]?, CONDITION CODES \\d,\\d,\\d",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? ALS OTS",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION \\d{1,2} MI \\w{1,} OF RUNWAY \\d{1,2}[LR]?, LASER",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT, \\d{4} \\w{1,} SIDE OF \\d{1,2} MILE FINAL, AT \\d{1,4} FEET LASER",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT, \\d{4} \\d{1,2} MILE \\w{1,} OF \\d{1,2} MILE FINAL, AT \\d{1,4} FEET LASER, \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTHORIZED LASER ILLUMINATION AT, \\d{4} \\d{1,2} MILE \\w{1,} OF \\d{1,2} MILE FINAL, AT \\d{1,4} FEET LASER",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "CAUTION MEN AND EQUIPMENT INBETWEEN RUNWAYS AT KILO INTERSECTION",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO PRACTICE APPROACHES UNTIL FURTHER NOTICE",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO PRACTICE APPROACHES",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "NO PATTERN WORK",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -9687,7 +9935,38 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "BIRD & CROP DUSTERS",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CD IS ON 121.7",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "METERING IN EFFECT FOR ([A-Z]{3}\\, ){1,}[A-Z]{3}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "METERING IN EFFECT FOR ([A-Z]{3}\\, ){1,}[A-Z]{3} [A-Z]{3}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "METERING IN EFFECT FOR ([A-Z]{3})",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "RWY \\d{1,2}[LR]? CONDITION CODES, \\d \\d \\d AT \\d{4}",
+          "replacement": "",
+          "isRegex": true
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -12082,7 +12361,73 @@
       "patterns": [],
       "airportConditionDefinitions": [],
       "notamDefinitions": [],
-      "datisTextReplacements": [],
+      "datisTextReplacements": [
+        {
+          "pattern": "AT, \\d{4} \\d{1,2} MILES \\w{1,} OF RENO AIRPORT, AT \\d{1,5} FEET \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "AT, \\d{4} \\d{1,2} MI FINAL RWY \\d{1,2}[LR]?, AT \\d{1,4} FEET \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "AT, \\d{4} \\d{1,2} MILE FINAL RWY \\d{1,2}[LR]?",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "BA ADZYS IN EFFECT, RWY \\d{1,2}[LR]?, CONDITION CODE, \\d, \\d, \\d, AT \\d{4}",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "BRAKING ACTION \\w{1,} RPTD BY \\w{1,}, AT \\d{4} Z",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "CRANE .\\d{1,2} MILES \\w{1,} \\d{1,5} FEET AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "CRANE .\\d{1,2} MILES \\w{1,} \\w{1,} \\w{1,} OF RUNWAY \\d{1,2}[LR]? APPROACH END \\d{1,5} FEET AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "CRANE .\\d{1,2} MILES \\w{1,} \\w{1,} OF RUNWAY \\d{1,2}[LR]? APPROACH END \\d{1,5} FEET AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "CRANE .\\d{1,2} MILES \\w{1,} OF RENO AIRPORT \\d{1,5} FEET AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "CRANE .\\d{1,2} MILES \\w{1,} OF RUNWAY \\d{1,2}[LR]? APPROACH END \\d{1,5} FEET AGL",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "LASER \\w{1,} OF THE AIRPORT, AT \\d{1,5} FEET \\w{1,} LASER, FROM THE \\w{1,}",
+          "replacement": "",
+          "isRegex": true
+        },
+        {
+          "pattern": "UNAUTH LASER ILLUM EVENT",
+          "replacement": "",
+          "isRegex": false
+        },
+        {
+          "pattern": "USE CAUTION FOR WIDE SPREAD GLIDER SOARING OPERATIONS",
+          "replacement": "",
+          "isRegex": false
+        }
+      ],
       "datisPrependAirportConditions": "",
       "datisAppendAirportConditions": "",
       "datisPrependNotams": "",
@@ -14301,12 +14646,13 @@
       "frequency": 119250000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -16590,12 +16936,13 @@
       "frequency": 121350000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -18869,12 +19216,13 @@
       "frequency": 124175000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -21148,12 +21496,13 @@
       "frequency": 135275000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -23417,12 +23766,13 @@
       "frequency": 125200000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -25696,12 +26046,13 @@
       "frequency": 124850000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -28015,12 +28366,13 @@
       "frequency": 125900000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -30294,12 +30646,13 @@
       "frequency": 124700000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -32563,12 +32916,13 @@
       "frequency": 126700000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -34832,12 +35186,13 @@
       "frequency": 119650000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -37101,12 +37456,13 @@
       "frequency": 124475000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -39380,12 +39736,13 @@
       "frequency": 127700000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -41659,12 +42016,13 @@
       "frequency": 118250000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -43948,12 +44306,13 @@
       "frequency": 124550000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -46227,12 +46586,13 @@
       "frequency": 125500000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -48506,12 +48866,13 @@
       "frequency": 118325000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -50784,12 +51145,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 121575000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -53062,12 +53424,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 135550000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -55346,12 +55709,13 @@
       "frequency": 124050000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -57655,12 +58019,13 @@
       "frequency": 120550000,
       "idsEndpoint": "https://ace-ids-5.vercel.app/api/atis",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -59984,12 +60349,13 @@
       "frequency": 119675000,
       "idsEndpoint": "",
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -62262,12 +62628,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 124100000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180
+        "speechRate": 180,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
@@ -64537,12 +64904,13 @@
       "airportConditionsSeparator": ". ",
       "frequency": 118000000,
       "useDecimalTerminology": false,
-      "randomizeAtisLetterOnConnect": false,
+      "randomizeAtisLetterOnConnect": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Male",
-        "speechRate": 220
+        "speechRate": 220,
+        "disconnectIfUnrecorded": true
       },
       "presets": [
         {
