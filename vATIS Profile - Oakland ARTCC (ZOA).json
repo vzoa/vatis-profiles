@@ -14651,8 +14651,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -16941,8 +16941,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -19221,8 +19221,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -21501,8 +21501,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -23771,8 +23771,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -26051,8 +26051,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -28371,8 +28371,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -30651,8 +30651,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -32921,8 +32921,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -35191,8 +35191,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -37461,8 +37461,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -39741,8 +39741,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -42021,8 +42021,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -44311,8 +44311,8 @@
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -46591,8 +46591,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -48871,8 +48871,8 @@
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -51150,8 +51150,8 @@
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -53429,8 +53429,8 @@
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Female",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -55714,8 +55714,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -58024,8 +58024,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -60354,8 +60354,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -62633,8 +62633,8 @@
         "useTextToSpeech": false,
         "useWavPack": false,
         "voice": "Default",
-        "speechRate": 180,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 180
       },
       "presets": [
         {
@@ -64909,8 +64909,8 @@
         "useTextToSpeech": true,
         "useWavPack": false,
         "voice": "US Male",
-        "speechRate": 220,
-        "disconnectIfUnrecorded": true
+        "disconnectIfUnrecorded": true,
+        "speechRate": 220
       },
       "presets": [
         {
